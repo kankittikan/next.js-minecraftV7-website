@@ -15,7 +15,7 @@ export default function Home() {
             <a href='.'>
               <h1 className='text-md font-burtons'>Minecraft Version 7</h1>
             </a>
-            <ul className='flex items-center'>
+            <ul className='flex items-center animate-bounce'>
               <li><a href='/getip' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' >Server IP</a></li>
             </ul>
           </nav>
@@ -23,14 +23,13 @@ export default function Home() {
             <img className='mx-auto' src='/assets/images/minecraft_logo.png' />
           </div>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium'>All In One Minecraft Server</h2>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium animate-pulse'>All In One Minecraft Server</h2>
             <h3 className='text-2xl py-2'>Developed by Kittikan Makphon</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>
               A Minecraft server perform with java plugins and node.js. We provide the automatic start and stop depent on players join and left.
             </p>
           </div>
         </section>
-
         <section className='lg:flex gap-10'>
           <div className='text-center shadow-lg p-10 rounded-xl'>
             <img className='mx-auto' src="/assets/images/code.png" width={100} height={100} />

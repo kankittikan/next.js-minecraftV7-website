@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 export default function Home() {
-  const ip = 'In Development Eiei';
+  const ip = 'In Development';
   return (
     <>
       <Head>
