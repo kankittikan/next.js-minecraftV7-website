@@ -23,8 +23,8 @@ export default function Home() {
             <img className='mx-auto' src='/assets/images/minecraft_logo.png' />
           </div>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium animate-pulse'>All In One Minecraft Server</h2>
-            <h3 className='text-2xl py-2 text-red-500'>Status: In Developing</h3>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium'>All In One Minecraft Server</h2>
+            <h3 className='text-2xl py-2 text-red-500 animate-pulse'>Status: In Developing</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>
               A Minecraft server perform with java plugins and node.js. We provide the automatic start and stop depent on players join and left.
             </p>
