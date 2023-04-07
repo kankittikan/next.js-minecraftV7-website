@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 export default function Home() {
-  const ip = 'In Development';
+  const ip = 'oyashiz.3bbddns.com:37580';
   return (
     <>
       <Head>
