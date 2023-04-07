@@ -19,6 +19,7 @@ export default function Home() {
               <li><a href='/getip' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' >Server IP</a></li>
             </ul>
           </nav>
+
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden'>
             <img className='mx-auto' src='/assets/images/minecraft_logo.png' />
           </div>
@@ -30,6 +31,13 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <h1 className='text-center font-black'>Development Media</h1>
+        <section className='flex justify-center'>
+          <div className='rounded-xl w-96 h-64 overflow-hidden'>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-Hu1i8w5ZXo" title="Doksakura V7 | Development" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </section>
+        <br/>
         <section className='lg:flex gap-10'>
           <div className='text-center shadow-lg p-10 rounded-xl'>
             <img className='mx-auto' src="/assets/images/code.png" width={100} height={100} />
