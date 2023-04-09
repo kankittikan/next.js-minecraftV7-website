@@ -9,7 +9,10 @@ module.exports = {
     extend: {
       fontFamily: {
         burtons: "Burtons",
-      }
+      },
+      backgroundImage: {
+        'pack': "url('/assets/images/bg.jpg')",
+      },
     },
   },
   plugins: [],
