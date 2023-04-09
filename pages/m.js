@@ -12,7 +12,7 @@ export default function Home() {
       <main className='bg-white px-10 md:px-20 lg:px-40'>
         <section>
           <nav className='py-10 mb-12 flex justify-between'>
-            <a href='/'>
+            <a href=''>
               <h1 className='text-md font-burtons'>Minecraft Version 7</h1>
             </a>
             <ul className='flex items-center animate-bounce'>

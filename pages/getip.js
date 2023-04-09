@@ -13,7 +13,7 @@ export default function Home() {
       <main className='bg-white px-10 md:px-20 lg:px-40'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <a href='/'>
+            <a href='/m'>
               <h1 className='text-md font-burtons'>Minecraft Version 7</h1>
             </a>
           </nav>
