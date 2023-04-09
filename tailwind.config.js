@@ -11,7 +11,7 @@ module.exports = {
         burtons: "Burtons",
       },
       backgroundImage: {
-        'pack': "url('/assets/images/bg.jpg')",
+        'pack': "url('/assets/images/bg.jpeg')",
       },
     },
   },
