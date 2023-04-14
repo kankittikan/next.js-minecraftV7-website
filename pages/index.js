@@ -16,9 +16,9 @@ export default function home() {
                 <div className='flex justify-center'>
                     <h1 className=''>Development Media</h1>
                 </div>
-                <section className='flex justify-center p-2'>
-                    <div className='rounded-xl overflow-hidden'>
-                        <iframe width="800px" height="500px" src="https://www.youtube.com/embed/-Hu1i8w5ZXo" title="Doksakura V7 | Development" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <section className='flex justify-center p-2 h-[500px]'>
+                    <div className='rounded-xl overflow-hidden w-4/5'>
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-Hu1i8w5ZXo" title="Doksakura V7 | Development" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </section>
                 <div className='flex justify-center p-5'>

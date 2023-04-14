@@ -1,7 +1,9 @@
 import Head from 'next/head'
 
 export default function Home() {
-  const ip = 'oyashiz.3bbddns.com:37580';
+  const ip = 'oyashiz.3bbddns.com:37585';
+  const ipDev = 'oyashiz.3bbddns.com:37580';
+
   return (
     <>
       <Head>
@@ -17,13 +19,23 @@ export default function Home() {
               <h1 className='text-md font-burtons'>Minecraft Version 7</h1>
             </a>
           </nav>
+
           <div className='text-center shadow-lg p-10 rounded-xl'>
             <img className='mx-auto' src="/assets/images/minecraft_logo.png" width={100} height={100} />
-            <h3 className='text-lg font-medium pt-8 pb-2'>{ip}</h3>
+            <h3 className='text-lg font-medium pt-8 pb-2'>Survival World (Partial)</h3>
             <p>
-              Good Luck!!
+              {ip}
             </p>
           </div>
+
+          <div className='text-center shadow-lg p-10 rounded-xl'>
+            <img className='mx-auto' src="/assets/images/minecraft_logo.png" width={100} height={100} />
+            <h3 className='text-lg font-medium pt-8 pb-2'>Development Server</h3>
+            <p>
+              {ipDev}
+            </p>
+          </div>
+
           <div className='text-center'>
             <h3 className='text-3xl py-1 mt-5'>Contact Me</h3>
             <h4>nongkan195@gmail.com</h4>
