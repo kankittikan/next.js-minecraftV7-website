@@ -32,7 +32,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='lg:flex gap-10'>
+        <section className='lg:flex gap-10 justify-center'>
           <div className='text-center shadow-lg p-10 rounded-xl'>
             <img className='mx-auto' src="/assets/images/code.png" width={100} height={100} />
             <h3 className='text-lg font-medium pt-8 pb-2'>Auto Start and Stop</h3>
@@ -51,7 +51,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section>
+        <section className='flex justify-center'>
           <div className='text-center'>
             <h3 className='text-3xl py-1 mt-5'>Contact Me</h3>
             <h4>nongkan195@gmail.com</h4>
