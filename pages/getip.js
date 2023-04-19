@@ -1,8 +1,7 @@
 import Head from 'next/head'
 
 export default function Home() {
-  const ip = 'oyashiz.3bbddns.com:37585';
-  const ipDev = 'oyashiz.3bbddns.com:37580';
+  const ipDev = 'oyashiz.3bbddns.com:37585';
 
   return (
     <>
@@ -22,7 +21,7 @@ export default function Home() {
 
           <div className='text-center shadow-lg p-10 rounded-xl'>
             <img className='mx-auto' src="/assets/images/minecraft_logo.png" width={100} height={100} />
-            <h3 className='text-lg font-medium pt-8 pb-2'>Development Server</h3>
+            <h3 className='text-lg font-medium pt-8 pb-2'>Development Server 24-hour Online</h3>
             <p>
               {ipDev}
             </p>
