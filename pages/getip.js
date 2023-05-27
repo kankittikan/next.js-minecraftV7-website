@@ -24,7 +24,7 @@ export default function Home() {
             <img className='mx-auto' src="/assets/images/minecraft_logo.png" width={100} height={100} />
             <h3 className='text-lg font-medium pt-8 pb-2'>Server 24-hour Online</h3>
             <p>
-              {ipAlter}
+              {ipDev}
             </p>
           </div>
 
