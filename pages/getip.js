@@ -1,8 +1,7 @@
 import Head from 'next/head'
 
 export default function Home() {
-  const ipDev = 'hnoonnahoh.trueddns.com:30811';
-  const ipAlter = '0.tcp.ap.ngrok.io:19752';
+  const ipDev = 'mc.doksakura.com';
 
   return (
     <>
