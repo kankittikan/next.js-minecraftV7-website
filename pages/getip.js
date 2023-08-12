@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 export default function Home() {
-  const ipDev = 'mc.doksakura.com';
+  const ipDev = 'join.doksakura.com';
 
   return (
     <>
